@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterByPalindromicTask", "FilterByPalindromicTask\FilterByPalindromicTask.csproj", "{958532C6-3A61-42BB-A2B2-E60CF081936D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterByPalindromicTask.Tests", "FilterByPalindromicTask.Tests\FilterByPalindromicTask.Tests.csproj", "{0910A71F-FC76-4CC1-9BEE-4D853C91002C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{958532C6-3A61-42BB-A2B2-E60CF081936D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958532C6-3A61-42BB-A2B2-E60CF081936D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958532C6-3A61-42BB-A2B2-E60CF081936D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958532C6-3A61-42BB-A2B2-E60CF081936D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0910A71F-FC76-4CC1-9BEE-4D853C91002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0910A71F-FC76-4CC1-9BEE-4D853C91002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0910A71F-FC76-4CC1-9BEE-4D853C91002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0910A71F-FC76-4CC1-9BEE-4D853C91002C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
