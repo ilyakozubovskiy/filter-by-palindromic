@@ -20,7 +20,7 @@ namespace FilterByPalindromicTask.Tests
 
         [Test]
         public void FilterByPalindromic_ArrayIsEmpty_ThrowArgumentException() =>
-            Assert.Throws<ArgumentException>(() => FilterByPalindromic(Array.Empty<int>(), "Array can not be empty.");
+            Assert.Throws<ArgumentException>(() => FilterByPalindromic(Array.Empty<int>()), "Array can not be empty.");
 
         [Test]
         public void FilterByPalindromic_ArrayIsNull_ThrowArgumentNullException() =>
