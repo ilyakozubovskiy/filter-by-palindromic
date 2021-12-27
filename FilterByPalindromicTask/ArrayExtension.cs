@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FilterByPalindromicTask
 {
@@ -20,7 +21,32 @@ namespace FilterByPalindromicTask
         /// </example>
         public static int[] FilterByPalindromic(int[] source)
         {
-            throw new NotImplementedException("You need to implement this function.");
+            if (source == null)
+            {
+                throw new ArgumentNullException(nameof(source));
+            }
+
+            if (source.Length == 0)
+            {
+                throw new ArgumentException("source cannot be empty.");
+            }
+
+            List<int> result = new List<int>();
+            for (int i = 0; i < source.Length; i++)
+            {
+                int reversedNumber = 0;
+                for (int number = source[i]; number > 0; number /= 10)
+                {
+                    reversedNumber = (reversedNumber * 10) + (number % 10);
+                }
+
+                if (source[i] == reversedNumber)
+                {
+                    result.Add(source[i]);
+                }
+            }
+
+            return result.ToArray();
         }
     }
 }
